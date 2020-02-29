@@ -5,9 +5,9 @@ using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
-using TesteAPI.Models;
+using ExampleAPI.Models;
 
-namespace TesteAPI.Migrations
+namespace ExampleAPI.Migrations
 {
     [DbContext(typeof(DatabaseContext))]
     [Migration("20200229181040_InitialCreate")]
@@ -21,7 +21,7 @@ namespace TesteAPI.Migrations
                 .HasAnnotation("ProductVersion", "3.1.1")
                 .HasAnnotation("Relational:MaxIdentifierLength", 63);
 
-            modelBuilder.Entity("TesteAPI.Models.Book", b =>
+            modelBuilder.Entity("ExampleAPI.Models.Book", b =>
                 {
                     b.Property<long>("BookId")
                         .ValueGeneratedOnAdd()
@@ -36,7 +36,7 @@ namespace TesteAPI.Migrations
                     b.ToTable("Books");
                 });
 
-            modelBuilder.Entity("TesteAPI.Models.User", b =>
+            modelBuilder.Entity("ExampleAPI.Models.User", b =>
                 {
                     b.Property<long>("UserId")
                         .ValueGeneratedOnAdd()

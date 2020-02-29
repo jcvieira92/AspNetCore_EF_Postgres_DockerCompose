@@ -2,9 +2,9 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using Microsoft.EntityFrameworkCore;
-using TesteAPI.Maps;
+using ExampleAPI.Maps;
 
-namespace TesteAPI.Models
+namespace ExampleAPI.Models
 {
     public class DatabaseContext : DbContext
     {
