@@ -14,8 +14,6 @@ services:
       DB_CONNECTION_STRING: "User ID=api_user;Password=password12;Host=postgres_image;Port=5432;Database=userdb;Integrated Security=true;Pooling=true"
     networks:
       - default-network
-    command: 
-      bash -c "dotnet ef database update"
   
   postgres_image:
     image: postgres
