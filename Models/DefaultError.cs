@@ -1,6 +1,6 @@
 using System.Net;
 
-namespace TesteAPI.Models
+namespace ExampleAPI.Models
 {
     public class DefaultError
     {

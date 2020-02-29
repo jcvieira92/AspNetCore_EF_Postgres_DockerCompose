@@ -1,8 +1,8 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using TesteAPI.Models;
+using ExampleAPI.Models;
 
-namespace TesteAPI.Maps
+namespace ExampleAPI.Maps
 {
     public class UserMap
     {

@@ -5,9 +5,9 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using TesteAPI.Models;
+using ExampleAPI.Models;
 
-namespace TesteAPI
+namespace ExampleAPI
 {
     public class Startup
     {

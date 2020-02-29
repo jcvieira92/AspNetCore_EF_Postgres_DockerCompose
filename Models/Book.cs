@@ -1,4 +1,4 @@
-namespace TesteAPI.Models
+namespace ExampleAPI.Models
 {
     public class Book
     {
